@@ -1,4 +1,4 @@
-FROM python:3.11-alpine
+FROM python:3.9-alpine
 LABEL maintainer="chawlaa019@gmail.com"
 COPY . /app
 WORKDIR /app
